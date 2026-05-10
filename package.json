@@ -1,0 +1,18 @@
+{
+  "name": "printix-sftp-connector",
+  "version": "1.0.0",
+  "description": "Printix Capture Connector API – delivers captured documents to an SFTP server.",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev":   "node --watch src/app.js"
+  },
+  "author": "Your Organisation",
+  "license": "MIT",
+  "dependencies": {
+    "express":          "^4.18.2",
+    "node-fetch":       "^3.3.2",
+    "ssh2-sftp-client": "^10.0.3"
+  }
+}
